@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>reveal.js</title>
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/black.css">
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h1>Day 1 to Code God</h1>
+                    <h3>How to grow as a Developer</h3>
+
+                    <p>
+                        <small>Created by <a href="http://andrewhuggins.com">Andy Huggins</a></small>
+                    </p>
+                </section>
+                <section>
+                    <p>
+                        "These people had to start learning similar to what I learned starting out...how is it they seem to know so much more?"
+                    </p>
+                </section>
+                <section>
+                    <h1>Secret Sauce</h1>
+                    <p>
+                        What separates experienced devs from beginners?
+                    </p>
+                </section>
+                <section>
+                    <h1>Deep Knowledge</h1>
+                </section>
+                <section>
+                    <section id="fragments">
+                        <h2>Traditional Learning</h2>
+                        <p class="fragment">Books</p>
+                        <div class="fragment">
+                            <ul>
+                                <li>Clean Code</li>
+                                <li>Refactoring</li>
+                                <li>Pragmatic Programmer</li>
+                                <li>Design Patterns</li>
+                            </ul>
+                        </div>
+                        <p class="fragment">
+                            Tutorials
+                        </p>
+                        <p class="fragment">
+                            Screencasts
+                        </p>
+                        <div class="fragment">
+                            Podcasts
+                        </div>
+                        <aside class="notes">
+                            <p>
+                                The key is to not just read them in a weekend and be done, try taking what you learn and apply that to your code. Maybe you go back and just refactor some code, or the next time you are writing code, you think about this practices.
+                            </p>
+                            <p>
+                                Beyond books, follow tutorials/screencasts, but focus on what the code is doing, not just recreating what is onscreen, or copying it.                                
+                            </p>
+                        </aside>
+                    </section>
+                </section>
+                <section>
+                    <h1>Debugging</h1>
+                    <aside class="notes">
+                        <p>
+                            Debugging is a crucial skill to top programmers/devs. At some point errors will happen, knowing what is happening and how to fix it is difficult. But when errors happen, before googling, try to think about the changes you made that are now erroring. Why would it do that? Again, I am emphasising wrestling with the code to understand it.
+                        </p>
+                        <p>
+                            Some error messages are cryptic, and you will need to Google them. I picked up a tip a while ago, a tutorial I was following the dev was narrating what he was expecting. Sometimes he expected an error and was surprised if he didn't get it, and actually found a bug because there was no error. This indicates a good mental model of the code and how the code should behave. Try stating what you expect to happen before running your code, and see if it behaves properly. This is a good way to learn.                            
+                        </p>
+                    </aside>
+                </section>
+                <section>
+                    <h1>Build Toy Apps</h1>
+
+                    <aside class="notes">
+                        <ul>
+                            <li>
+                                Another way to gain deeper knowledge, is to build toy apps. A toy app, is something you kind of know will never be used in production, you're going into it with the goal of learning. The great thing about them is that they are a fresh starting point. There is no overhead/legacy code you have to deal with. There are no deadlines. You get to make all the decisions and you are free to build what you think is important.    
+                            </li>
+                            <li>
+                                You can practice making decisions, and you don't have to learn how a big existing system works in order to make changes.                                
+                            </li>
+                            <li>
+                                You can practice new techniques and see how those play out in terms of working within a system.                                
+                            </li>
+                            <li>
+                                Another great thing is that at the beginning, this toy app can have a small focus. Which hopefully means there is little code, and it is easy to reason about. This makes working within easier.                                
+                            </li>
+                            <li>
+                                This is also a good place to learn about testing, since there should not be a "who knows where to start" situation.                                
+                            </li>
+                        </ul>
+                    </aside>
+                </section>
+                <section>
+                    <h1>Write Tests</h1>
+
+                    <aside class="notes">
+                        <p>One of the things I am working on adding to my toolbelt is testing. Testing is a good practice because to test code you write, you have to think about how it works and what you need to assert to verify it works as expected.</p>
+
+                        <p>This can give you perspective about your code, and how it works. That perspective is useful when you have to write new code.</p>
+                    </aside>
+                </section>
+                <section>
+                    <h1>Break Habits</h1>
+                    <p>"Everything looks like a nail, when all you have is a hammer"</p>
+                    <aside class="notes">                        
+                        <p>
+                            When you start out, you usually learn the basics: 
+
+                            1. Maybe you learn how to Hello World. 
+                            2. Variables
+                            3. Control Structures (IF, while, etc)
+                            4. Data Structures (Array, struct, collection, etc)
+
+                            And often, this is a imperative/procedural language. But to some degree, these are considered bad practices as you advance. So I think you have to break these habits in order to improve. Think of If, If If, Else, If, Foreach, If, Else, Else.....This is considered bad code, but it's one of the first things you learn basically.
+
+                            So learn them, because they have their place, but be aware that they may not be the best approach.                            
+                        </p>
+                    </aside>
+                </section>
+                <section>
+                    <h1>Mentality</h1>
+                    <aside class="notes">
+                        This is a difficult one, To some degree I think what separates a new dev from an experienced dev is a bit of mentality. Experienced devs know they can figure things out, new devs struggle with knowing enough. Imposter syndrome is a big issue, because people don't want to look dumb. But working on a system that has been built over years, and you are just walking in...the fact that you may not know something is really an indication of poor documentation than your ability.
+
+To some degree it's confidence, but I think some of it is staying power.
+                    </aside>
+                </section>
+                <section>
+                    <h1>Read Source Code</h1>
+
+                    <aside class="notes">
+                        Another great way to learn is to read existing source code. Github is an amazing resource where you can access code written by all kinds of programmers. You should seek out people who have a reputation for good code, and then go read theirs.
+
+                        What you can gain here, is you can see how people structure their code, or maybe a trick...keep in mind not all code is great, but in reading many people's code, you can develop a sense of what is good/bad/acceptable and this affects the way you code things.
+                    </aside>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ]
+            });
+        </script>
+    </body>
+</html>
